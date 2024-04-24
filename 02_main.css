@@ -1,0 +1,29 @@
+.fnnt{
+    font-family: "Raleway", Sans-serif;
+}
+.fnt{
+    font-family: "Playfair Display", "Sans-serif";
+    color: #ec1443 !important;
+    font-style: italic;
+    
+    
+    font-style: italic;
+    /* font-size: 36px; */
+}
+.txt{
+    color: #565656;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.linktxt{
+    font-family: "Raleway", Sans-serif;
+    /* font-size: 18px; */
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.bgco{
+    background-color: #ec1443 !important;
+}

@@ -1,0 +1,186 @@
+Img{
+    width: 30%;
+    /* height: 200px; */
+    margin-left: 80px !important;
+}
+.xs-banner {
+background-image: linear-gradient(to right, #eb1a44, #cb2772, #99418b, #644e89, #404e71) !important;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.Navbar:hover{
+    color: red !important;
+}
+
+.headcolor{
+     color: #000000;
+}
+.list{
+    list-style-type:'\2713';
+    
+}
+
+.footerlist{
+    list-style-type:'\003E';
+    color: red;
+    
+}
+
+.footerlogo:hover{
+    transition: all;
+    transform: scale(1.1);
+    transition-timing-function:ease-in;
+    transition-duration: 800ms; 
+    transition-delay: 10ms;
+}
+.footertext:hover{
+    transition: all;
+    transform: translateX(20px);
+    transition-timing-function:ease-in;
+    transition-duration: 800ms; 
+    transition-delay: 10ms;
+  
+} 
+
+
+.marker::marker{
+    color:#eb1a44;
+    font-weight: bold;
+}
+
+/* progress bar colour */
+.wp
+{
+    background-image: linear-gradient(225deg, #07b787 0%, #7ed500 100%);
+}
+.wd{
+    background-image: linear-gradient(90deg, #f96933 0%, #fad470 100%);
+}
+.dm{
+    background-image: linear-gradient(90deg, #53f8a2 0%, #03cffc 100%);
+}
+
+.background{
+    background-color: #0d2352;
+}
+
+.headcolor{
+    color: #eb1a44;
+}
+
+.Card{
+    border: none;
+    background-color: #8e8b8b;
+    opacity:2;
+}
+
+.buton{
+    background-color: #f9346e !important;
+}
+.buton[aria-expanded=true],
+.buton[aria-expanded=true]{
+    background-color: #404e71 !important;
+}
+
+.buttonn{
+      background-color: transparent !important;
+      border: none !important;
+      color: white;
+      opacity: 0.5;
+}
+.buttonn:active{
+    background-color: #f9346e !important;
+   
+    border: 2px solid #f9346e !important;
+    opacity: 1;
+
+}
+.buttonn:focus{
+    background-color: #f9346e !important;
+    border: 2px solid #f9346e !important;
+    opacity: 5;
+
+
+
+}
+.bradi{
+   border-radius: 7px;
+}
+
+.buton::after {
+    transition: all 0.5s;
+  }
+
+.box{
+    background-image: url('footer-bg.png');
+   background-color: #404e71
+}
+
+.buton::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'  width='20' height='23' fill='white' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+    transition: all 0.5s;           
+    
+  }
+  .buton:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+  }
+.butun{
+    border: none;
+    background-color: #0d2352;    
+}
+
+.contaner{
+    background-color: transparent;
+    background-image: linear-gradient(250deg, #eb1a44 0%, #404e71 100%)
+}
+.bgimg{
+    background-image: url('bgwordpress3.jpg');
+    background-size: cover;
+    
+}
+.bg{   
+   
+    background-color: #ec1443 !important;
+    opacity: 0.9;
+    /* transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */  
+}
+.btun{
+  background-color: rgb(64, 78, 113);
+  /* border-bottom-color rgb(24, 104, 221); */
+  color: white;
+  border: none
+}
+.arrow{
+    background-color: black;
+    opacity:0.4;
+    border: black;
+}
+.Img1 {
+    animation-name: up;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes up {
+    from {
+        transform: translateY(-10px);
+    }
+
+    to {
+        transform: translateY(10px);
+    }
+
+}
+
+.botm{
+    border-bottom: 4px solid red;
+   
+}
+.bright{
+    border-right: 4px solid red;
+}
